@@ -1,14 +1,99 @@
+body{
+    font-family: "Montserrat";
+    font-weight: 700;
+}
 
 h1{
     font-family: "Montserrat";
-    font-weight: 900;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
+    font-weight: 900;
 }
+
+/***Navigation Bar***/
+
+.navbar{
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 4.5rem;
+    padding-left: 0px;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}    
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+    /***font weight 300 is the same is 'light'***/
+}
+
+/***Download Buttons***/
+
+.download-btn{
+    margin: 5% 3% 5% 0%;
+}
+
+/***Title Immage***/
+
+.title-immage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.rotate-25deg{
+    transform: rotate(25deg);
+}
+
+/***Features***/
+
+.h3-features{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.p-features{
+    color: #8f8f8f;
+    font-weight: normal;
+    margin: auto;
+}
+
+.f-icons{
+    color: #ef8172;
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+
+.div-padding{
+    padding: 10%;
+    width: 90%;
+}
+
+#features{
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+}
+
+i:hover{
+    color: #ff4c68;
+}
+
+/***Hi***/
 
 .container-fluid{
     padding: 3% 15%;
 }
+
 
 #cat-pic{
     background-color: #ff4c68;
@@ -16,5 +101,6 @@ h1{
 
 #title {
     background-color: #ff4c68;
+    color: #fff;
 }
 
